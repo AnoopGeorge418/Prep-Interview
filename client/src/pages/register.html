@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepInterview - SignUp</title>
+    <link rel="stylesheet" href="../styles/register.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main_container">
+            <div class="app_logo">
+                <img src="/client/public/app_icon.png" alt="prepInterview apps logo image">
+            </div>
+            <div class="heading_and_sub">
+                <h1>Create an account with us!</h1>
+                <p>Dream It. Wish It. Do It. Make It Come True.</p>
+            </div>
+            <div class="register_form">
+                <label for="fullname">
+                    Full Name
+                    <input type="text" id="userFullName" placeholder="Enter your full name..." required>
+                </label>
+                <label for="userName">
+                    User Name
+                    <input type="text" id="userUserName" placeholder="Create a user name for account...">
+                </label>
+                <label for="email">
+                    Email
+                    <input type="email" id="userEmailaddress" placeholder="Enter your email...">
+                </label>
+                <label for="password">
+                    Password
+                    <input type="password" id="userPassword" placeholder="Create a password...">
+                </label>
+                <label for="confirmPass">
+                    Confirm Password
+                    <input type="password" id="userConfirmPass" placeholder="Confirm the password...">
+                </label>
+                <button id="formSubmit">Create My Account</button>
+            </div>
+            <p class="justAnOr">or</p>
+            <div class="social_Logins">
+                <button class="googleLogin">Continue with Google</button>
+                <button class="githubLogin">Continue with Github</button>
+            </div>
+            <p class="justaPtag">Already have an account? <span class="signInRedirect">Sign In</span></p>
+        </div>
+        <div class="customAlertBox">
+            <!-- This is an alert -->
+        </div>
+        <footer class="footer">
+            &copy; <span class="current_year">Year</span> <span class="my_profile">Anoop George</span> — Built with inspiration and dedication.
+        </footer>
+    </div>
+
+    <script type="module" src="../js/register.js"></script>
+</body>
+</html>
