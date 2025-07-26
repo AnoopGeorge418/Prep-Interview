@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tai+Heritage+Pro:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: linear-gradient(rgb(114, 114, 114), rgb(53, 61, 80));
+    min-height: 100vh;
+    width: 100vw;
+    font-family: "Tai Heritage Pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hide scrollbars */
+body::-webkit-scrollbar { 
+    display: none;
+    -ms-overflow-style: none; /*for edge*/
+    scrollbar-width: none; /*for firefox*/
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid rgb(158, 158, 158);
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 30rem;
+    width: 100%;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.app_logo img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    border: 1px solid rgb(140, 140, 140);
+}
+
+.heading_and_sub {
+    margin-top: 0rem;
+}
+
+.heading_and_sub p {
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.register_form {
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_form label, input {
+    display: block;
+    margin-top: 1rem;
+}
+
+.register_form input {
+    width: 22.1rem;
+    padding: 0.75rem 1rem;
+    height: auto;
+    margin-top: -.5rem;
+    border-radius: .5rem;
+    border: 1px solid rgb(82, 82, 82);
+}
+
+.register_form button {
+    width: 22.1rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    transition: background-color 5s, color 1s;
+    cursor: pointer;
+}
+
+.register_form button:hover{
+    background-color: rgb(33, 32, 51);
+    color: white;
+}
+
+.justAnOr {
+    margin-top: 1px;
+}
+
+.social_Logins button {
+    padding: 1rem;
+    width: 11rem;
+    border-radius: .5rem;
+    transition: background-color 5s, color 1s;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.social_Logins button:hover {
+    background-color: rgb(33, 32, 51);
+    color: white;
+}
+
+.justaPtag {
+    margin-top: 1rem;
+}
+
+.signInRedirect {
+    transition: color 1s, font-weight 1s;
+}
+
+.signInRedirect:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer .my_profile{
+    transition: font-weight 3s, color 1s;
+    cursor: pointer;
+}
+
+.footer .my_profile:hover {
+    font-weight: bold;
+    color: white;
+}
